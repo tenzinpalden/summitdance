@@ -6,7 +6,6 @@ const videos = [
     {
         id: 'S4UOFp57CKg',
         title: 'Tsahi Ley Bay',
-        detailedDescription: 'This is a detailed description for Bhutanese Dance Performance 1. Learn about the cultural significance, costumes, and unique dance steps involved in this beautiful performance.',
     },
     {
         id: 'T0D0RIyR41U',

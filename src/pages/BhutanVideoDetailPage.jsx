@@ -6,20 +6,17 @@ import './BhutanVideoDetailPage.css';
 const videoData = {
     'S4UOFp57CKg': {
         title: 'Tsahi Ley Bay',
-        description: 'Experience the elegance of traditional Bhutanese dance.',
-        detailedDescription: 'This is a detailed description for Bhutanese Dance Performance 1. Learn about the cultural significance, costumes, and unique dance steps involved in this beautiful performance.',
+        detailedDescription: '"Tashi Lebay" is a popular Bhutanese song often performed during traditional events and ceremonies. The song\'s lyrics typically express well-wishes and blessings for peace, happiness, and prosperity. "Tashi Lebay" is an integral part of Bhutanese cultural heritage, often sung during auspicious occasions such as weddings, celebrations, and gatherings. The melody and lyrics are designed to convey positive energy and good fortune to those present, reflecting the deep spiritual and cultural values of Bhutanese society. This is a detailed description for Bhutanese Dance Performance 1. Learn about the cultural significance, costumes, and unique dance steps involved in this beautiful performance.',
         videoId: 'S4UOFp57CKg',
     },
     'T0D0RIyR41U': {
         title: 'Rangsem La',
-        description: 'A lively performance showcasing Bhutanese folk dance.',
-        detailedDescription: 'In this performance, the vibrant energy and community spirit of Bhutanese folk dance are highlighted. The detailed description covers the history and modern interpretations of this dance.',
+        detailedDescription: '"Rangsem La" is a traditional Bhutanese song that typically conveys themes of personal reflection, spirituality, and the connection between the self and the broader universe. The lyrics often encourage introspection, self-awareness, and a deeper understanding of one\'s place in the world. Songs like "Rangsem La" are an essential part of Bhutan\'s cultural and spiritual heritage, often performed during religious and cultural events to inspire mindfulness and contemplation.',
         videoId: 'T0D0RIyR41U',
     },
     '8l5OrUkLlrY': {
-        title: 'Lungpa Chung Chung ',
-        description: 'Traditional Bhutanese dance with musical accompaniment.',
-        detailedDescription: 'This detailed description explores the traditional Bhutanese dance accompanied by live music, including the instruments used and the cultural stories told through the dance.',
+        title: 'Bhutanese Dance Performance 3',
+        detailedDescription: '"Lungpa Chung Chung" is a traditional Bhutanese song that typically reflects the themes of nature, love, and rural life in Bhutan. The lyrics often highlight the beauty of Bhutan\'s landscapes, the simplicity of life in the countryside, and sometimes a longing or nostalgia for the past. The song is part of Bhutan\'s rich cultural heritage and is often performed during festivals, celebrations, and other cultural events.',
         videoId: '8l5OrUkLlrY',
     },
 };

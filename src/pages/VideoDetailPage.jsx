@@ -6,19 +6,16 @@ import './VideoDetailPage.css';
 const videoData = {
     '4odD-H-rFqg': {
         title: 'སྟོད་གཞས། སྒྲ་ལ་སྙན་པའི་མ་ནིའི་གསུང་། | Toeshay Group Dance | Yarkyi 2016',
-        description: 'Enjoy this beautiful traditional Tibetan group dance.',
-        detailedDescription: 'This is a detailed description for Tibetan Dance Performance 1. Here you can dive deeper into the history, style, and cultural significance of this dance.',
-        videoId: '4odD-H-rFqg',
+        detailedDescription: 'Toeshey, a traditional Tibetan dance, is deeply rooted in the cultural and spiritual history of Tibet. Originating centuries ago, it plays a significant role in Tibetan festivals, religious ceremonies, and communal gatherings, symbolizing joy, unity, and cultural identity. The dance, performed in a circular formation, is accompanied by traditional Tibetan music, featuring instruments like the dranyen and drums. Today, Toeshey continues to be a vibrant expression of Tibetan heritage, performed by communities both in Tibet and in exile, preserving their rich traditions and spiritual values.',
+        videoId: '4odD-H-rFqg'
     },
     'KVm_PAg30XU': {
         title: 'Bhoed Kyi Tenpa | བོད་ཀྱི་བསྟན་པ། ',
-        description: 'A captivating performance of Gorshey by TIPA.',
         detailedDescription: 'This detailed description covers the unique aspects of the Gorshey performance, including the choreography, music, and the context in which this dance is typically performed.',
         videoId: 'KVm_PAg30XU',
     },
     'JINc9znSaTc': {
         title: 'Traditional Tibetan Music: Dorjee Tsering',
-        description: 'Traditional Tibetan music by Dorjee Tsering.',
         detailedDescription: 'Explore the traditional Tibetan music by Dorjee Tsering, including the instruments used, the historical background, and the emotional depth conveyed in this performance.',
         videoId: 'JINc9znSaTc',
     },

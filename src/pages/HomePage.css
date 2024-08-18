@@ -68,6 +68,7 @@ body {
     max-width: 800px;
     line-height: 1.5;
     animation: fadeInUp 1.5s ease-out;
+    color:white;
 }
 
 .cta-button {

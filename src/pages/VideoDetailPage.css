@@ -4,13 +4,89 @@
     margin: 0 auto;
     font-family: 'Arial', sans-serif;
     color: #333;
-    text-align: center;
+    text-align: left; /* Align text to the left for better readability */
+    background-color: #f9f9f9; /* Add a light background for contrast */
+    border-radius: 10px; /* Add rounded corners to the container */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
 }
 
 .video-detail-page h1 {
     font-size: 2.5em;
     margin-bottom: 20px;
     color: #ff6600;
+    text-align: center; /* Center the title */
+}
+
+.video-detail-page p {
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: #666;
+    line-height: 1.8;
+    text-align: justify; /* Justify text for a cleaner look */
+}
+
+.video-detail-page h2, .video-detail-page h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: left; /* Align section headings to the left */
+    border-bottom: 2px solid #ff6600; /* Add a bottom border for emphasis */
+    padding-bottom: 5px; /* Add padding for space between text and border */
+}
+
+.video-detail-page ul {
+    margin-top: 20px;
+    margin-left: 20px;
+    list-style-type: disc;
+    color: #444;
+}
+
+.video-detail-page ul li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.video-detail-page blockquote {
+    margin: 20px 0;
+    padding: 15px 20px;
+    background-color: #eee;
+    border-left: 5px solid #ff6600;
+    font-style: italic;
+    color: #555;
+}
+
+.video-detail-page img {
+    max-width: 100%;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.video-detail-page {
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.video-detail-page h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ff6600;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
 }
 
 .video-detail-page p {
