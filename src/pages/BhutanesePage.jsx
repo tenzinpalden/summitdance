@@ -6,19 +6,16 @@ const videos = [
     {
         id: 'S4UOFp57CKg',
         title: 'Tsahi Ley Bay',
-        description: 'Experience the elegance of traditional Bhutanese dance.',
         detailedDescription: 'This is a detailed description for Bhutanese Dance Performance 1. Learn about the cultural significance, costumes, and unique dance steps involved in this beautiful performance.',
     },
     {
         id: 'T0D0RIyR41U',
         title: 'Rangsem La',
-        description: 'An Old Dzongkha Song',
         detailedDescription: 'In this performance, the vibrant energy and community spirit of Bhutanese folk dance are highlighted. The detailed description covers the history and modern interpretations of this dance.',
     },
     {
         id: '8l5OrUkLlrY',
-        title: 'Lungpa Chung Chung ',
-        description: 'Traditional Bhutanese dance with musical accompaniment.',
+        title: 'Lungpa Chung Chung',
         detailedDescription: 'This detailed description explores the traditional Bhutanese dance accompanied by live music, including the instruments used and the cultural stories told through the dance.',
     }
 ];
@@ -31,7 +28,12 @@ const BhutanPage = () => {
             <div className="video-grid">
                 {videos.map((video) => (
                     <Link to={`/bhutan/video/${video.id}`} className="video-card" key={video.id}>
-                        <div>
+                        <img 
+                            src={`https://img.youtube.com/vi/${video.id}/hqdefault.jpg`} 
+                            alt={video.title} 
+                            className="video-thumbnail"
+                        />
+                        <div className="video-info">
                             <h3>{video.title}</h3>
                             <p>{video.description}</p>
                         </div>

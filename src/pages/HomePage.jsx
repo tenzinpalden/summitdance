@@ -31,14 +31,17 @@ const HomePage = () => {
             <header className="hero-section">
                 <div className="hero-content scroll-fade-in">
                     <h1>Welcome to Summit Dance</h1>
-                    <p>Explore the vibrant cultural heritage of Himalayan dances.</p>
-                    <button className="cta-button">Discover More</button>
+                    <p>Explore the vibrant cultural heritage of Himalayan dances</p>
+                    {/* Wrap the button with Link */}
+                    <Link to="/discover">
+                        <button className="cta-button">Discover More</button>
+                    </Link>
                 </div>
             </header>
             <main className="main-content">
 
                 <section className="explore-section scroll-fade-in">
-                    <h2>Explore the Dances</h2>
+                    <h2>Explore Cultures</h2>
                     <div className="dance-cards">
                         <Link to="/tibetan" className="dance-card scroll-zoom-in">
                             <img src="/tibetan.jpg" alt="Tibetan Dance" />

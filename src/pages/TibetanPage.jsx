@@ -6,17 +6,14 @@ const videos = [
     {
         id: '4odD-H-rFqg',
         title: 'སྟོད་གཞས། སྒྲ་ལ་སྙན་པའི་མ་ནིའི་གསུང་། | Toeshay Group Dance | Yarkyi 2016',
-        description: 'Enjoy this beautiful traditional Tibetan group dance.'
     },
     {
         id: 'KVm_PAg30XU',
         title: 'Bhoed Kyi Tenpa | བོད་ཀྱི་བསྟན་པ། ',
-        description: 'A captivating performance of Gorshey by TIPA.'
     },
     {
         id: 'JINc9znSaTc',
         title: 'Traditional Tibetan Music: Dorjee Tsering',
-        description: 'Traditional Tibetan music by Dorjee Tsering.'
     }
 ];
 
@@ -28,7 +25,12 @@ const TibetanPage = () => {
             <div className="video-grid">
                 {videos.map((video) => (
                     <Link to={`/video/${video.id}`} className="video-card" key={video.id}>
-                        <div>
+                        <img 
+                            src={`https://img.youtube.com/vi/${video.id}/hqdefault.jpg`} 
+                            alt={video.title} 
+                            className="video-thumbnail"
+                        />
+                        <div className="video-info">
                             <h3>{video.title}</h3>
                             <p>{video.description}</p>
                         </div>

@@ -1,21 +1,21 @@
-/* Tibetan Page Styles */
 .tibetan-page {
-    padding: 40px;
     max-width: 1200px;
     margin: 0 auto;
-    font-family: 'Arial', sans-serif;
-    color: #333;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
     text-align: center;
-}
-
-.tibetan-page h1 {
-    font-size: 2.5em;
     margin-bottom: 20px;
-    color: #ff6600;
+    font-size: 2.5em;
+    color: #333;
 }
 
-.tibetan-page p {
+p {
+    text-align: center;
     font-size: 1.2em;
+    color: #666;
     margin-bottom: 40px;
 }
 
@@ -26,31 +26,37 @@
 }
 
 .video-card {
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    text-align: left;
-    transition: transform 0.3s, box-shadow 0.3s;
     text-decoration: none;
     color: inherit;
-    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .video-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-.video-card h3 {
+.video-thumbnail {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.video-info {
+    padding: 15px;
+}
+
+.video-info h3 {
     font-size: 1.5em;
-    margin-top: 15px;
     margin-bottom: 10px;
     color: #ff6600;
 }
 
-.video-card p {
+.video-info p {
     font-size: 1em;
-    color: #666;
-    line-height: 1.5;
+    color: #555;
+    line-height: 1.6;
 }
