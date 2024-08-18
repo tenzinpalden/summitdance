@@ -1,117 +1,201 @@
-/* Discussion Page Styles */
+/* Import Montserrat Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 
+/* General Container Styling */
 .discussion-container {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
-    padding: 20px;
-    font-family: Arial, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 40px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4f7fa;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
+/* Page Heading */
 h1 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    color: #333;
+    font-weight: 700;
 }
 
+/* New Post Section */
 .new-post {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
 }
 
 .new-post textarea {
     width: 100%;
     height: 100px;
-    padding: 10px;
-    margin-bottom: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 8px;
+    font-size: 1.1em;
+    transition: border-color 0.3s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.new-post textarea:focus {
+    border-color: #0079d3;
+    outline: none;
+}
+
+.new-post input[type="file"] {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .new-post button {
-    padding: 10px 20px;
-    background-color: #ff4500;
+    padding: 12px 25px;
+    background-color: #ff6600;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
+    font-size: 1.1em;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.3s;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .new-post button:hover {
-    background-color: #e03e00;
+    background-color: #e05500;
+    transform: translateY(-2px);
 }
 
+/* Posts Section */
 .posts .post {
-    margin-bottom: 20px;
-    padding: 15px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    background-color: #f9f9f9;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.posts .post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
 }
 
 .post-content p {
-    font-size: 1.2em;
-    margin-bottom: 10px;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+    color: #444;
+    font-family: 'Montserrat', sans-serif;
 }
 
+/* Video Styling */
+video {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Post Controls */
 .post-controls {
     display: flex;
     align-items: center;
+    margin-top: 10px;
 }
 
 .post-controls button {
-    padding: 5px 10px;
-    margin-right: 5px;
+    padding: 8px 15px;
+    margin-right: 10px;
     background-color: #0079d3;
     color: white;
     border: none;
-    border-radius: 3px;
+    border-radius: 5px;
+    font-size: 1em;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.3s;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .post-controls button:hover {
     background-color: #005ea6;
+    transform: translateY(-2px);
 }
 
 .post-controls span {
     font-weight: bold;
-    margin-right: 5px;
+    font-size: 1.1em;
+    color: #333;
 }
 
+/* Comments Section */
 .comments h4 {
-    margin-top: 15px;
-    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    color: #0079d3;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .comments .comment {
-    margin-bottom: 5px;
-    padding: 5px 10px;
+    margin-bottom: 10px;
+    padding: 15px 20px;
     background-color: #eee;
-    border-radius: 3px;
+    border-radius: 8px;
+    font-size: 1.1em;
+    color: #555;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    font-family: 'Montserrat', sans-serif;
 }
 
+/* Add Comment Form */
 .add-comment {
-    margin-top: 10px;
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
 }
 
 .add-comment textarea {
     width: 100%;
-    height: 50px;
-    padding: 10px;
-    margin-bottom: 10px;
+    height: 80px;
+    padding: 12px;
+    margin-bottom: 12px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 8px;
+    font-size: 1.1em;
+    transition: border-color 0.3s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.add-comment textarea:focus {
+    border-color: #0079d3;
+    outline: none;
 }
 
 .add-comment button {
-    padding: 5px 10px;
+    padding: 10px 20px;
     background-color: #0079d3;
     color: white;
     border: none;
-    border-radius: 3px;
+    border-radius: 8px;
+    font-size: 1.1em;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.3s;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .add-comment button:hover {
     background-color: #005ea6;
+    transform: translateY(-2px);
 }

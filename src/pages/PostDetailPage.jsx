@@ -16,6 +16,12 @@ const PostDetailPage = ({ posts, addCommentToPost }) => {
             <div className="post-detail">
                 <div className="post-content">
                     <p>{post.content}</p>
+                    {post.videoUrl && (
+                        <video controls width="480" height="270">
+                            <source src={post.videoUrl} type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                    )}
                     <div className="post-controls">
                         <span>{post.votes} Votes</span>
                     </div>
