@@ -1,16 +1,16 @@
 import React from 'react';
-import './NavbarComponent.css';
+import { NavLink } from 'react-router-dom';
+import './navbar.css';
 
 const NavbarComponent = () => {
     return (
         <nav className="navbar">
-            <div className="navbar-logo">
-                <a href="/">Summit Dance</a>
-            </div>
             <ul className="navbar-links">
-                <li><a href="/tibetan">Tibetan</a></li>
-                <li><a href="/bhutanese">Bhutanese</a></li>
-                <li><a href="/nepali">Nepali</a></li>
+                <li><NavLink exact to="/" activeClassName="active">Home</NavLink></li>
+                <li><NavLink to="/tibetan" activeClassName="active">Tibetan</NavLink></li>
+                <li><NavLink to="/bhutanese" activeClassName="active">Bhutanese</NavLink></li>
+                <li><NavLink to="/nepali" activeClassName="active">Nepali</NavLink></li>
+                <li><NavLink to="/about" activeClassName="active">About</NavLink></li>
             </ul>
         </nav>
     );
