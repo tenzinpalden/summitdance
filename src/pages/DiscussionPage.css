@@ -1,0 +1,117 @@
+/* Discussion Page Styles */
+
+.discussion-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.new-post {
+    margin-bottom: 30px;
+}
+
+.new-post textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.new-post button {
+    padding: 10px 20px;
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.new-post button:hover {
+    background-color: #e03e00;
+}
+
+.posts .post {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.post-content p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.post-controls {
+    display: flex;
+    align-items: center;
+}
+
+.post-controls button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #0079d3;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.post-controls button:hover {
+    background-color: #005ea6;
+}
+
+.post-controls span {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.comments h4 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.comments .comment {
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    background-color: #eee;
+    border-radius: 3px;
+}
+
+.add-comment {
+    margin-top: 10px;
+}
+
+.add-comment textarea {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-comment button {
+    padding: 5px 10px;
+    background-color: #0079d3;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-comment button:hover {
+    background-color: #005ea6;
+}
