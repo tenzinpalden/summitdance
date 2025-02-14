@@ -1,0 +1,17 @@
+/* HeaderComponent.css */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the logo horizontally */
+    padding: 10px 20px;
+    color: white;
+    margin-bottom: -40px;
+    margin-top: -24px;
+    
+}
+
+.logo img {
+    max-width: 180px; /* Keep the logo size as needed */
+    height: auto;
+}

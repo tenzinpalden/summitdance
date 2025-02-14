@@ -8,7 +8,7 @@ function App() {
     <Router>
         <HeaderComponent />
         <Routes>
-            <Route path="/" element={<HomePage />} />
+            <Route path="/HeaderComponent" element={<HomePage />} />
             
         </Routes>
     </Router>
