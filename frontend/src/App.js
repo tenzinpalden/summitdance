@@ -5,6 +5,9 @@ import HeaderComponent from './components/header';
 import Footer from './components/footer';
 import NavbarComponent from './components/navbar';
 
+import TibetanPage from './pages/TibetanPage';
+
+
 function App() {
   return (
     <Router>
@@ -13,7 +16,8 @@ function App() {
 
         <Routes>
             <Route path="/" element={<HomePage />} />
-            
+            <Route path="/tibetan" element={<TibetanPage />} />
+
         </Routes>
         <Footer />
 

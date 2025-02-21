@@ -7,6 +7,8 @@ const NavbarComponent = () => {
         <nav className="navbar">
             <ul className="navbar-links">
                 <li><NavLink exact to="/" activeClassName="active">Home</NavLink></li>
+                <li><NavLink to="/tibetan" activeClassName="active">Tibetan</NavLink></li>
+
             </ul>
         </nav>
     );
