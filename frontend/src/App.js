@@ -5,6 +5,7 @@ import HeaderComponent from './components/header';
 import Footer from './components/footer';
 import NavbarComponent from './components/navbar';
 
+import DiscoverMorePage from './pages/DiscoverMorePage';
 import TibetanPage from './pages/TibetanPage';
 import BhutanesePage from './pages/BhutanesePage';
 
@@ -20,6 +21,7 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/tibetan" element={<TibetanPage />} />
             <Route path="/bhutanese" element={<BhutanesePage />} />
+            <Route path="/discover" element={<DiscoverMorePage />} />
         </Routes>
         <Footer />
 
