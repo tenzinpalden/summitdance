@@ -1,0 +1,22 @@
+/* Video Detail Page Styles */
+.video-detail-page {
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+.video-detail-page h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ff6600;
+}
+
+.video-detail-page p {
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: #666;
+    line-height: 1.8;
+}
